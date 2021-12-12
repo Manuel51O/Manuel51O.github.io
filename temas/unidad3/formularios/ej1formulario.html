@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-EDGE">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    </head>
+    <body>
+        <nav>
+            <li class=""><a href="../../../index.html">Volver a Lenguaje de Marcas.</a></li><br>
+            <li class=""><a href="../index.html">Volver a la Unidad 3.</a></li>
+            <li class=""><a href="">Primer Ejercicio</a></li>
+            <li class=""><a href="../Ejercicio3/index.html">Tercer Ejercicio</a></li>
+            <li class=""><a href="../Ejercicio5/index.html">Quinto Ejercicio</a></li>
+            <li class=""><a href="../formularios/ej1formulario.html">Formularios</a></li>
+        </nav>
+        <h1>Único Ejercicio de la Unidad 3 sobre Formularios</h1>
+        <form action="ej1.php" method="post">
+            <p>
+            <label>Nombre: 
+            <input type="text" name="nombre" placeholder="Nombre" maxlength="10"/>
+            </label>
+            <p>
+            <label> Fecha de Nacimiento:
+            <input type="date" name="nacimiento" placeholder="Nombre" maxlength="10"/>
+            </label>
+            </p>
+            <p>
+            <label>Horas dedicadas a videojuegos semanales:
+            <input type="number" name="nhoras" placeholder="horas" title="Horas diarias viedojuegos"/>
+            </label>
+            </p>
+            <p>
+            <label>Email:
+            <input type="email" name="email" placeholder="email"/>
+            </label>
+            </p>
+            <p>
+                <label> Videconsola: </label>
+                <input type="checkbox" name="videoconsola1" value="PS"/>Play Station
+                <input type="checkbox" name="videoconsola2" value="XB"/>Xbox
+                <input type="checkbox" name="videoconsola3" value="PC"/>Ordenador
+                <input type="checkbox" name="videconsola4" value="NT">Nintendo
+
+            </p>
+            <p>
+                <label> Elige juego preferido: </label>
+                <input type="radio" name="videojuego" value="League of Legends"/>League of Legends
+                <input type="radio" name="videojuego" value="Fortnite"/>Fornite
+                <input type="radio" name="videojuego" value="Diablo"/>Diablo
+                <input type="radio" name="videojuego" value="Age of Empires">Age of Empires
+            </p>
+            <textarea name="descripcion" cols="30" rows="10">Descripción.</textarea>
+            <p>
+            <select name="grupos">
+                <option value="1DAW">1ºDAW</option>
+                <option value="2DAW">2ºDAW</option>
+                <option value="1ASIR">1ºASIR</option>
+                <option value="2ASIR">2ºASIR</option>
+                </select>
+            <p>
+            <input type="submit" name="submit" value="Enviar"/>
+            </p>
+        </form>
+    </body>
+</html>

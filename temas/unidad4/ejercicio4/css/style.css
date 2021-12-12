@@ -1,0 +1,24 @@
+p, span {
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+p span {
+    font-size: 24px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    text-align: center;
+}
+header p {
+    font-size: 36px;
+    font-style: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    text-align: justify;
+}
+body {
+    background-color: pink;
+}

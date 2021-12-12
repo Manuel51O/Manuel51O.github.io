@@ -1,0 +1,31 @@
+table {
+	width: 100%;
+	height: 600px;
+}
+h1 {
+    text-align: center;
+}
+[class~=PROG] {
+    background-color: greenyellow;
+}
+[class~=LMSGI] {
+    background-color: burlywood;
+}
+[class~=BADA] {
+    background-color: green;
+}
+[class~=SIIN] {
+    background-color: orange;
+}
+[class~=FOL] {
+    background-color: blueviolet;
+}
+[class~=ENDES] {
+    background-color: grey;
+}
+[class~=hora] {
+    background-color: red;
+}
+[class~=dia] {
+    background-color: rgb(251, 255, 0);
+}
